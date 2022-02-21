@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import web from '../src/BLENDER STUFFS/robon-animation.gif';
+import web from '../src/BLENDER STUFFS/robon animation.mp4';
 
 
 const Home=()=>{
@@ -26,7 +26,7 @@ const Home=()=>{
                         </div>
                     </div>
                     <div className="col-lg-6 order-1 order-lg-2 header-img">
-                       <img src={web} className="anim w-100 h-auto" alt="home-img" />
+                       <video loop src={web} className="anim w-100 h-auto" alt="home-img" autoPlay/>
                     </div>
                     </div>
                 </div>
